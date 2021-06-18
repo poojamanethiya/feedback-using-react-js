@@ -22,13 +22,13 @@ function Feed() {
           <section id="o">
               <form id="frm"  action="form.html" onsubmit="return false"><br></br>
                       <label for="name">FIRST  NAME :  &nbsp; &nbsp;&nbsp;</label>
-                     <input type="text" id ='name' name="name "  maxlength="40"  /><br></br>
+                     <input type="text" id ='name' name="name "  maxLength="40"  /><br></br>
                       <label for="midname">MIDDLE  NAME : &nbsp;</label>
-                      <input type="text" id ='midname' name="midname" maxlength="40"/><br></br>
+                      <input type="text" id ='midname' name="midname" maxLength="40"/><br></br>
                       <label for="lname">LAST  NAME : &nbsp; &nbsp; &nbsp;</label>
-                      <input type="text" id ='lname' name="lname"  maxlength="40"   /><br></br>
+                      <input type="text" id ='lname' name="lname"  maxLength="40"   /><br></br>
                       <label for="sug">SUGGESTIONS : &nbsp;</label>
-                      <input type="text " id="sug" name="sug" d maxlength="40" / ><br></br>
+                      <input type="text " id="sug" name="sug" d maxLength="40" / ><br></br>
                       <label for="gender" >GENDER :</label>
                       <input type="radio" name="gender" value="Mr." id="male" />MALE 
                       <input type="radio" name="gender" value="Ms." id="female"/>FEMALE <br></br>
